@@ -1,3 +1,8 @@
 [build]
   command = "echo 'No build step required for this static site'"
   publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/ecogreen-movers.html"
+  status = 200
